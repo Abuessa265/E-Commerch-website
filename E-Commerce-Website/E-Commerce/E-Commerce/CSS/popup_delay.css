@@ -1,0 +1,51 @@
+[tabindex="-1"]:focus:not(:focus-visible) {
+    outline: 0 !important;
+}
+
+#overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    left: 0;
+    right: 0;
+    z-index: 99999;
+    display: none;
+}
+#overlay_2 {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    left: 0;
+    right: 0;
+    z-index: 99999;
+    display: none;
+}
+#popup {
+    background: #fff;
+    padding: 20px;
+    max-width: 520px;
+    margin: 10% auto;
+    position: relative;
+    color: #0e0e0e;
+}
+
+.close {
+    position: absolute;
+    top: 4px;
+    right: 8px;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 5;
+}
+
+#msg{
+    display:none;
+}
+#btn{
+    display:block;
+    width: 165px;
+    border-radius: 10px;
+    margin-top: 90px;
+}

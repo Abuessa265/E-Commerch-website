@@ -1,0 +1,8 @@
+#loader{
+    position: fixed;
+    width: 100%;
+    height: 10Øvh;
+    z-index: 1;
+    overflow: visible;
+    background: #fff url(',,/images/loading.gif') no-repeat center center;
+    }
